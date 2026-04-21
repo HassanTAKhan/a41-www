@@ -158,7 +158,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-white mb-3">MOT Testing</h3>
               <p className="text-muted leading-relaxed">
-                Full MOT testing for Class 4 vehicles. Our DVSA-approved testers
+                Full MOT testing for Class 4 and Class 7 vehicles. Our DVSA-approved testers
                 ensure a thorough and fair assessment of your vehicle.
               </p>
             </div>
@@ -323,7 +323,7 @@ export default function Home() {
                   <p className="text-muted text-sm">Aston Clinton</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-accent mb-2">Class 4</div>
+                  <div className="text-4xl font-bold text-accent mb-2">Class 4 & 7</div>
                   <p className="text-muted text-sm">Vehicles</p>
                 </div>
                 <div className="text-center">

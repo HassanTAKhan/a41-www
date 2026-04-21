@@ -106,8 +106,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto mb-12">
-            Enter your registration number below to check your vehicle&apos;s MOT
-            status. Professional MOT testing in Aston Clinton, Aylesbury.
+            Enter your registration number below to instantly check your vehicle&apos;s MOT status — not history, just where you stand right now. Professional MOT testing in Aston Clinton, Aylesbury.
           </p>
 
           <NumberPlateSearch />
@@ -249,10 +248,7 @@ export default function Home() {
                 <span className="text-accent">A41 MOTs?</span>
               </h2>
               <p className="text-muted text-lg leading-relaxed mb-8">
-                Based on the A41 corridor in Aston Clinton, we provide honest,
-                reliable MOT testing and vehicle services. Our DVSA-approved
-                testing station offers a professional service with no pressure
-                and no hidden costs.
+                We&apos;re a family-run garage based on the A41 in Aston Clinton. Honest, straightforward, and no nonsense. No upselling, no hidden costs, just reliable MOT testing and vehicle services from people you can actually trust.
               </p>
 
               <div className="space-y-6">
@@ -341,11 +337,11 @@ export default function Home() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted">Saturday</span>
-                    <span className="text-white font-medium">8:00 AM - 2:00 PM</span>
+                    <span className="text-white font-medium">8:00 AM - 4:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted">Sunday</span>
-                    <span className="text-white font-medium">Closed</span>
+                    <span className="text-white font-medium">9:00 AM - 2:00 PM</span>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NumberPlateSearch from "./components/NumberPlateSearch";
 import ContactForm from "./components/ContactForm";
 import MobileNav from "./components/MobileNav";
@@ -10,12 +11,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-black font-bold text-sm">A41</span>
+              <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
+                <span className="text-white font-bold text-xs">A41</span>
               </div>
-              <span className="text-white font-bold text-lg">
-                MOTs & Tyres
-              </span>
+              <span className="text-white font-bold text-lg">MOT & Repair Centre</span>
             </a>
 
             <div className="hidden md:flex items-center gap-8">
@@ -70,6 +69,18 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent" />
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+          <div className="flex justify-center mb-8">
+            <Image
+              src="/logo.jpg"
+              alt="FA-A41 MOTs & Tyres Services Ltd"
+              width={700}
+              height={315}
+              className="w-full max-w-md rounded-xl"
+              style={{ boxShadow: '0 0 40px 8px rgba(220,38,38,0.4), 0 0 80px 20px rgba(220,38,38,0.15)' }}
+              priority
+            />
+          </div>
+
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/20 rounded-full text-accent text-sm font-medium mb-8">
             <svg
               className="w-4 h-4"
@@ -450,17 +461,17 @@ export default function Home() {
       {/* CTA Banner */}
       <section className="py-16 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Book Your MOT Today
           </h2>
-          <p className="text-black/70 text-lg mb-8 max-w-xl mx-auto">
+          <p className="text-white/70 text-lg mb-8 max-w-xl mx-auto">
             Don&apos;t wait until your MOT expires. Call us now to book your test
             or get a quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:07377745544"
-              className="flex items-center gap-2 px-8 py-4 bg-black text-white font-bold rounded-lg hover:bg-black/80 transition-colors text-lg"
+              className="flex items-center gap-2 px-8 py-4 bg-white text-accent font-bold rounded-lg hover:bg-white/90 transition-colors text-lg"
             >
               <svg
                 className="w-5 h-5"
@@ -479,7 +490,7 @@ export default function Home() {
             </a>
             <a
               href="#contact"
-              className="px-8 py-4 bg-transparent border-2 border-black text-black font-bold rounded-lg hover:bg-black/10 transition-colors text-lg"
+              className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition-colors text-lg"
             >
               Send Enquiry
             </a>
@@ -493,12 +504,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                  <span className="text-black font-bold text-sm">A41</span>
+                <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
+                  <span className="text-white font-bold text-xs">A41</span>
                 </div>
-                <span className="text-white font-bold text-lg">
-                  MOTs & Tyres
-                </span>
+                <span className="text-white font-bold text-lg">MOTs & Tyres</span>
               </div>
               <p className="text-muted text-sm leading-relaxed">
                 F &amp; A A41 MOTs and Tyres Services Ltd. Professional MOT

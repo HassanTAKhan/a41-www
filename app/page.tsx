@@ -539,6 +539,16 @@ export default function Home() {
                     Facebook
                   </a>
                 </li>
+                <li>
+                  <a href="/privacy-policy" className="text-muted hover:text-accent transition-colors">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="text-muted hover:text-accent transition-colors">
+                    Terms &amp; Conditions
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -561,9 +571,11 @@ export default function Home() {
             <p className="text-muted text-xs">
               &copy; {new Date().getFullYear()} F &amp; A A41 MOTs and Tyres Services Ltd. All rights reserved.
             </p>
-            <p className="text-muted text-xs">
-              MOT data provided by DVSA
-            </p>
+            <div className="flex items-center gap-4 text-xs text-muted">
+              <a href="/privacy-policy" className="hover:text-accent transition-colors">Privacy Policy</a>
+              <a href="/terms" className="hover:text-accent transition-colors">Terms &amp; Conditions</a>
+              <span>MOT data provided by DVSA</span>
+            </div>
           </div>
         </div>
       </footer>

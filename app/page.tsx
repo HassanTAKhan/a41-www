@@ -12,9 +12,9 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <a href="#" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-xs">A41</span>
+                <span className="text-white font-bold text-xs">FA</span>
               </div>
-              <span className="text-white font-bold text-lg">MOT & Repair Centre</span>
+              <span className="text-white font-bold text-lg">A41 MOTs & tyres</span>
             </a>
 
             <div className="hidden md:flex items-center gap-8">
@@ -245,7 +245,7 @@ export default function Home() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
                 Why Choose{" "}
-                <span className="text-accent">A41 MOTs?</span>
+                <span className="text-accent">FA A41 MOTs & Tyre Services?</span>
               </h2>
               <p className="text-muted text-lg leading-relaxed mb-8">
                 We&apos;re a family-run garage based on the A41 in Aston Clinton. Honest, straightforward, and no nonsense. No upselling, no hidden costs, just reliable MOT testing and vehicle services from people you can actually trust.
@@ -501,9 +501,9 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">A41</span>
+                  <span className="text-white font-bold text-xs">FA</span>
                 </div>
-                <span className="text-white font-bold text-lg">MOTs & Tyres</span>
+                <span className="text-white font-bold text-lg">A41 MOTs & Tyres</span>
               </div>
               <p className="text-muted text-sm leading-relaxed">
                 F &amp; A A41 MOTs and Tyres Services Ltd. Professional MOT
